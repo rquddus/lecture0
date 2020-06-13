@@ -11,6 +11,7 @@
       gtag('config', 'UA-169214429-1');
     </script>
 
+    <link rel="stylesheet" href="styles.css">
 
     <title>Sameera</title>
   </head>
@@ -19,30 +20,33 @@
   This is Sameera
   </body>
   <body>
-    <div>
-      <input name="name" type="text" placeholder="Name">
-      <input name="password" type="password"  placeholder="Password">
-    </div>
+    <form>
+        <div>
+          <input name="name" type="text" placeholder="Name">
+          <input name="password" type="password"  placeholder="Password">
+        </div>
 
-    <div>
-      Favorite Color:
-      <input name="color" type="radio" value="red"> Red
-      <input name="color" type="radio" value="green"> Green
-      <input name="color" type="radio" value="blue"> Blue
-      <input name="color" type="radio" value="other"> Other
-    </div>
+        <div>
+          Favorite Color:
+          <input name="color" type="radio" value="red"> Red
+          <input name="color" type="radio" value="green"> Green
+          <input name="color" type="radio" value="blue"> Blue
+          <input name="color" type="radio" value="other"> Other
+        </div>
 
-    <div>
-      Country:
-      <input name="country" list="countries" placeholder="Country">
-      <datalist id="countries">
-        <option value="Afghanistan">
-        <option value="Bangladesh">
-        <option value="India">
-        <option value="USA">
-        <option value="Antigua &amp; Deps">
+        <div>
+          Country:
+          <input name="country" list="countries" placeholder="Country">
+          <datalist id="countries">
+            <option value="Afghanistan">
+            <option value="Bangladesh">
+            <option value="India">
+            <option value="USA">
+            <option value="Antigua &amp; Deps">
 
-    </div>
+        </div>
+        <button> Submit </button>
+    </form>
 
     <div>
       <h2 id="sameera"> Sameera </h2>

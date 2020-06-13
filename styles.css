@@ -1,18 +1,16 @@
 
 h1 {
-  color: darkgray;
+  color:skyblue;
   text-align: center;
+}
+h2 {
+  color: lightblue;
+  text-align: left;
 }
 
 div {
 
-  background-color: lightgray;
-  height: 150px;
-  margin:20px;
-  padding: 100px;
-  font-family: sans-serif;
-  font-weight:bold;
-  border: 3px solid lightgray;
+
 }
 
 table {
@@ -31,8 +29,41 @@ th {
 }
 #summary {
   font-size: 16px;
+  background-color: lightgray;
+  height: 150px;
+  margin:20px;
+  padding: 100px;
+  font-family: sans-serif;
+  font-weight:bold;
+  border: 3px solid lightgray;
 }
 
 .name {
   font-size: 20px;
+}
+
+form {
+  border: 3px solid lightgray;
+}
+
+.div_form {
+
+}
+
+input[type=text], input[type=password] {
+  font-style: oblique;
+}
+button:hover {
+  background-color: skyblue
+}
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background-color: lightgray
+}
+
+a[class=home_href]::before {
+  content:"\21d2 ";
+  font-weight: bold;
 }
