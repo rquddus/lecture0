@@ -28,7 +28,7 @@ div {
     text-align: center;
   }
   th,td {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 
@@ -79,4 +79,17 @@ button {
 a[class=home_href]::before {
   content:"\21d2 ";
   font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.container>div {
+  background-color:lightgray;
+  font-size: 12px;
+  margin: 20px;
+  padding: 20px;
+  width: 25%;
 }
