@@ -67,7 +67,12 @@
       <video src="test.mp4" poster="IMG_0051.JPG" width="480" controls onclick=”ga(‘send’, ‘event’, 'video', 'play', 'videoplay', '11');”>
     </div>
     <div>
-      <a href="./conda-cheatsheet.pdf" onclick=”ga(‘send’, ‘event’, 'PDF', 'Download', 'Awesome Lead Magnet');”>LEAD MAGNET DOWNLOAD PAGE</a>
+      <a href="./conda-cheatsheet.pdf" onclick=
+        "gtag('event', 'click', {'event_category' : 'PDF',
+                                'event_label' : 'Download'});"
+        >
+        LEAD MAGNET DOWNLOAD PAGE
+      </a>
     </div>
     <div>
       <a href="./conda-cheatsheet.pdf" onclick=”ga(‘send’, ‘event’, 'PDF', 'Download', '13');”>LEAD MAGNET DOWNLOAD PAGE</a>
