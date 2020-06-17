@@ -65,14 +65,20 @@
     </div>
     <div>
       <video src="test.mp4" poster="IMG_0051.JPG" width="480" controls onclick=
-          "gtag('event', 'click', {'event_category' : 'Video',
-                                  'event_label' : 'Play'});"
+          "gtag('event', 'click', {
+                                  'event_category' : 'Video',
+                                  'event_label' : 'Play',
+                                  'event_value' : '10'
+                                });"
         >
     </div>
     <div>
       <a href="./conda-cheatsheet.pdf" onclick=
-        "gtag('event', 'click', {'event_category' : 'PDF',
-                                'event_label' : 'Download'});"
+        "gtag('event', 'click', {
+                              'event_category' : 'PDF',
+                              'event_label' : 'Download',
+                              'event_value' : '11'
+                            });"
         >
         LEAD MAGNET DOWNLOAD PAGE
       </a>
